@@ -1,5 +1,5 @@
 const fs = require("fs");
-obj
+
 class Contenedor {
   constructor(file) {
     this.file = file;
