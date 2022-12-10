@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Notebook HP",
+    "precio": 200000,
+    "url": "www.ejemplo.com/nbhp.jpg",
+    "id": 1
+  },
+  {
+    "nombre": "Webcam",
+    "precio": 4000,
+    "url": "www.ejemplo.com/wc.jpg",
+    "id": 2
+  },
+  {
+    "title": "microfono",
+    "price": 2000,
+    "thumbnail": "mic1.jpg",
+    "id": 3
+  },
+  {
+    "nombre": "Cristian Amodeo",
+    "precio": 11,
+    "url": "cristian11.jpg",
+    "id": 4
+  }
+]
