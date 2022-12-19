@@ -1,0 +1,24 @@
+include layout.pug
+
+section.p-4.bg-light
+    h2.text-primary Vista de Productos
+    if productos.length===0
+        div.mt-4
+        h2.bg-info.p-4.text-danger No se encontraron productos
+    else
+        table.table.table-striped
+            thead
+                tr
+                    th Nombre
+                    th Precio
+                    th url
+            tbody
+                each producto in productos
+                    tr
+                        td.align-middle= producto.nombre
+                        td.align-middle= producto.precio
+                        td.align-middle
+                            img(src=producto.url alt=producto.nombre)
+    div.mt-3
+    a(href="/")
+        button.btn.btn-danger Agregar producto

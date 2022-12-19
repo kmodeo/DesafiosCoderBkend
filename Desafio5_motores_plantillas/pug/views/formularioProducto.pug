@@ -1,0 +1,19 @@
+include layout.pug
+
+section.p-4.bg-light
+    h2.text-primary Ingrese Producto
+    form(action='/productos' method='POST')
+        div(class='mb-3')
+            label(class='form-label', 'fw-bold' for='nombre') Nombre
+            input.form-control(type='text' name='nombre')
+        div(class='mb-3')
+            label(class='form-label', 'fw-bold' for='precio') Precio
+            input.form-control(type='number' name='precio')
+        div(class='mb-3')
+            label(class='form-label', 'fw-bold' for='url') Foto URL
+            input.form-control(type='url' name='url')
+        div(class='mb-3')
+            input.btn.btn-success(type='submit' value='Enviar')
+    div(class='mb-3')
+        a(href="/productos")
+            button.btn.btn-warning Ver Productos
