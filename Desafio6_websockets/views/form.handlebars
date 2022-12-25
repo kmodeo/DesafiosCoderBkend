@@ -1,0 +1,74 @@
+<section class='p-4 bg-light'>
+	<h2 class='text-primary'>Ingrese Producto</h2>
+	<form id='add-productos'>
+		<div class='mb-3'>
+			<label class='form-label fw-normal' for='nombre'>Nombre</label>
+			<input
+				id='nombre-producto'
+				class='form-control'
+				type='text'
+				name='nombre'
+			/>
+		</div>
+		<div class='mb-3'>
+			<label class='form-label fw-normal' for='precio'>Precio</label>
+			<input
+				id='precio-producto'
+				class='form-control'
+				type='number'
+				name='precio'
+			/>
+		</div>
+		<div class='mb-3'>
+			<label class='form-label fw-normal' for='url'>Foto URL</label>
+			<input
+				id='imagen-producto'
+				class='form-control'
+				type='url'
+				name='url'
+			/>
+		</div>
+		<div class='mb-3'>
+			<input class='btn btn-success' type='submit' value='Enviar' />
+		</div>
+	</form>
+</section>
+<section class='p-4 bg-secondary' style='--bs-bg-opacity: .3;'>
+	<h2 class='text-primary'>Vista de Productos</h2>
+	{{#if productos}}
+		<table class='table table-striped'>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Precio</th>
+					<th>Foto</th>
+				</tr>
+			</thead>
+			<tbody id='tabla-productos'></tbody>
+		</table>
+	{{else}}
+		<h2 class='bg-info p-4 text-danger'>No hay productos listados</h2>
+	{{/if}}
+</section>
+<section class='p-4 bg-secondary mt-4' style='--bs-bg-opacity: .3;'>
+	<h2 class='text-primary mb-4'>Centro de Mensajes</h2>
+	<input
+		id='email-usuario'
+		class='form-control col-6'
+		type='mail'
+		id='usermail'
+		placeholder='Ingresa tu email'
+	/>
+	<hr />
+	<div id='tabla-chat' class='my-4'></div>
+	<form id='formulario-chat' class='form-inline'>
+		<input
+			id='mensaje-chat'
+			class='form-control mb-3'
+			type='text'
+			name='chatmessage'
+			placeholder='Ingresá un mensaje...'
+		/>
+		<button class='btn btn-primary' type='submit'>Enviar</button>
+	</form>
+</section>
