@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": 1673190757417,                 
+    "id": 1,
+    "products": [
+      {
+        "id": 1,
+        "timestamp": 1673190757417,
+        "title": "Producto 1",
+        "price": 10,
+        "description": "Notebook P1",
+        "code": "codigo1",
+        "image": "codigo1.com",
+        "stock": 100
+      }
+    ]
+  }
+]

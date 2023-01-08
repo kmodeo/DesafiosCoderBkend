@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "timestamp": 1673190757417,
+        "title": "Producto 1",
+        "price": 10,
+        "description":"product 1",
+        "code": "codigo-1",
+        "image": "codigo1.com",
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "timestamp": 1673190757417,
+        "title": "Producto 2",
+        "price": 20,
+        "description":"producto 2",
+        "code": "codigo-2",
+        "image": "codigo2.com",
+        "stock": 200
+    }
+]

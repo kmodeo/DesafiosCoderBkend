@@ -1,0 +1,17 @@
+{
+  "name": "desafio-7-primera_entrega_proy_final",
+  "version": "1.0.0",
+  "description": "### Consignas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --inspect ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2"
+  }
+}

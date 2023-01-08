@@ -1,0 +1,11 @@
+AGREGAR PRODUCTO
+
+    {
+      
+        "title": "Producto ",
+        "price": 1,
+        "description":"descripcion producto ",
+        "code": "codigo-",
+        "image": "producto1.com",
+        "stock": 100
+    }
