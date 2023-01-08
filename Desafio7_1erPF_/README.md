@@ -27,13 +27,13 @@ y como VALUE el token que se ubica en el archivo .env
 | `DELETE` | `/:id` | Borra un producto por su Id. (solo administradores) |
 
 #### Ejemplos POST para agregar productos con POSTMAN (agregar el Token)
-![POSTMAN](./docs/imagen1.png?raw=true "Metodo Post")
+![POSTMAN](./src/docs/imagen1.png?raw=true "Metodo Post")
 
 #### Ejemplos PUT para modificar productos con POSTMAN (agregar el Token)
-![POSTMAN](./docs/imagenPut.png?raw=true "Metodo Put")
+![POSTMAN](./src/docs/imagenPut.png?raw=true "Metodo Put")
 
 #### Ejemplos DELETE para borrar un producto con POSTMAN (agregar el Token)
-![POSTMAN](./docs/imagenDelete.png?raw=true "Metodo Delete")
+![POSTMAN](./src/docs/imagenDelete.png?raw=true "Metodo Delete")
 
 
 #### Get item
@@ -48,7 +48,7 @@ y como VALUE el token que se ubica en el archivo .env
 | `DELETE` | `/:id/productos/:id_prod' ` | Elimna producto de carrito por Id carrito y de producto (http://localhost:8080/api/carrito/1/productos/4) |
 
 #### Ejemplos POST para incorporar productos al carrito con POSTMAN
-![POSTMAN](./docs/carritoPost.png?raw=true "Metodo Post de carrito")
+![POSTMAN](./src/docs/carritoPost.png?raw=true "Metodo Post de carrito")
 
 #### Ejemplos DELETE para eliminar productos del carrito con POSTMAN
-![POSTMAN](./docs/carritoDelete.png?raw=true "Metodo Post de carrito")
+![POSTMAN](./src/docs/carritoDelete.png?raw=true "Metodo Post de carrito")
