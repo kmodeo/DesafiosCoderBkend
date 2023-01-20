@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "63c6d83a489a7e9ecfa0109f"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673975866466"
+    }
+  },
+  "title": "Mouse 4",
+  "price": 1140,
+  "description": "mouse 4",
+  "code": "MS-4",
+  "image": "producto4.com",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "63c6d83a489a7e9ecfa010a0"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673975866466"
+    }
+  },
+  "title": "Microfono 5",
+  "price": 2250,
+  "description": "microfono 5",
+  "code": "MIC-5",
+  "image": "producto5.com",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "63c6d83a489a7e9ecfa010a1"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673975866466"
+    }
+  },
+  "title": "Router 6",
+  "price": 3360,
+  "description": "router 6",
+  "code": "XP-6",
+  "image": "producto6.com",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "63c6d83a489a7e9ecfa010a2"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673975866466"
+    }
+  },
+  "title": "FuenteATX 7",
+  "price": 4470,
+  "description": "FuenteATX 7",
+  "code": "FATX-7",
+  "image": "producto7.com",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "63c6d83a489a7e9ecfa010a3"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673975866466"
+    }
+  },
+  "title": "PC 8",
+  "price": 5000,
+  "description": "PC DELL 8",
+  "code": "PC-8",
+  "image": "producto8.com",
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "63c6d83a489a7e9ecfa010a4"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673975866466"
+    }
+  },
+  "title": "Impresora 9",
+  "price": 3450,
+  "description": "Impresora HP 9",
+  "code": "IMP-9",
+  "image": "producto9.com",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "63c6d83a489a7e9ecfa010a5"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673975866466"
+    }
+  },
+  "title": "Scanner 10",
+  "price": 2860,
+  "description": "Scanner 10",
+  "code": "SC-10",
+  "image": "producto10.com",
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "63c6d972489a7e9ecfa010a8"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1673976178418"
+    }
+  },
+  "title": "Wifi-USB 11",
+  "price": 3860,
+  "description": "Wifi-USB 11",
+  "code": "WF-11",
+  "image": "Producto11.com",
+  "stock": 100
+}]
